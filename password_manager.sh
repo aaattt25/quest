@@ -4,8 +4,7 @@ echo "パスワードマネージャーへようこそ！"
 
 while true
 do
-    echo "次の選択肢から入力してください"
-    echo 'Add Password/Get Password/Exit：'
+    echo "次の選択肢から入力してください(Add Password/Get Password/Exit)："
     read word
     if [ "$word" = "Add Password" ]; then
         echo "サービス名を入力してください："
